@@ -12,7 +12,8 @@ namespace TPLSample
         static void Main(string[] args)
         {
             //ParallelInvoke.Execute();
-            ParallelForEach.Execute();
+            //ParallelForEach.Execute();
+            ParallelFor.Execute();
 
             Console.WriteLine("Finished processing. Press a key to end.");
             Console.ReadKey();
